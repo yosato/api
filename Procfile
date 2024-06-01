@@ -1,1 +1,1 @@
-web: gunicorn players_api:app
+web: gunicorn players_api:players_api
