@@ -1,0 +1,72 @@
+[
+  {
+    "id": "issei_MWT",
+    "name": "Issei",
+    "score": 65,
+    "gender": "male",
+    "club": "MY Wimbledon Tokyo"
+  },
+  {
+    "id": "tomokiNishino_MWL",
+    "name": "Tomoki Nishino",
+    "score": 75,
+    "gender": "male",
+    "club": "MY Wimbledon London"
+  },
+  {
+    "id": "noriko_MWL",
+    "name": "Noriko",
+    "score": 44.48649860526708,
+    "gender": "female",
+    "club": "MY Wimbledon London"
+  },
+  {
+    "id": "natsumi_MWL",
+    "name": "Natsumi",
+    "score": 45.831535392165925,
+    "gender": "female",
+    "club": "MY Wimbledon London"
+  },
+  {
+    "id": "takiko_MWL",
+    "name": "Takiko",
+    "score": 50,
+    "gender": "female",
+    "club": "MY Wimbledon London"
+  },
+  {
+    "id": "motoko_FTF",
+    "name": "Motoko",
+    "score": 30,
+    "gender": "female",
+    "club": "Funabashi Tennis Freaks"
+  },
+  {
+    "id": "yo_MWL",
+    "name": "Yo",
+    "score": 52,
+    "gender": "male",
+    "club": "MY Wimbledon London"
+  },
+  {
+    "id": "inomata_FTF",
+    "name": "Inomata",
+    "score": 40,
+    "gender": "male",
+    "club": "Funabashi Tennis Freaks"
+  },
+  {
+    "id": "nobuko_MWL",
+    "name": "Nobuko",
+    "score": 40.0,
+    "gender": "female",
+    "club": "MY Wimbledon London"
+  },
+  {
+    "id": "hahaha_MWL",
+    "name": "Hahaha",
+    "score": 50.0,
+    "gender": "female",
+    "club": "MY Wimbledon London"
+  }
+]

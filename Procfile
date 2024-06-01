@@ -1,0 +1,1 @@
+web: gunicorn players_api:app
