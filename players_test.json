@@ -14,9 +14,9 @@
     "club": "MY Wimbledon London"
   },
   {
-    "id": "noriko_MWL",
-    "name": "Noriko",
-    "score": 44.48649860526708,
+    "id": "junko_MWL",
+    "name": "Junko",
+    "score": 41.0,
     "gender": "female",
     "club": "MY Wimbledon London"
   },
@@ -63,10 +63,24 @@
     "club": "MY Wimbledon London"
   },
   {
-    "id": "hahaha_MWL",
-    "name": "Hahaha",
-    "score": 50.0,
+    "id": "noriko_MWL",
+    "name": "Noriko",
+    "score": 44.0,
     "gender": "female",
     "club": "MY Wimbledon London"
+  },
+  {
+    "id": "motoko_MWL",
+    "name": "Motoko",
+    "score": 32.0,
+    "gender": "female",
+    "club": "MY Wimbledon London"
+  },
+  {
+    "id": "mami_FTF",
+    "name": "Mami",
+    "score": 30.0,
+    "gender": "female",
+    "club": "Funabashi Tennis Freaks"
   }
 ]

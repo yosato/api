@@ -5,7 +5,7 @@ from flask_restful import Api, Resource, reqparse
 players_api=Flask(__name__)
 api=Api(players_api)
 
-players=json.load(open('players.json','rt'))
+players=json.load(open('players_test.json','rt'))
 
 class Players(Resource):
     def get_id(self,params):
