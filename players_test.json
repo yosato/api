@@ -16,21 +16,21 @@
   {
     "id": "junko_MWL",
     "name": "Junko",
-    "score": 41.0,
+    "score": 42.0,
     "gender": "female",
     "club": "MY Wimbledon London"
   },
   {
     "id": "natsumi_MWL",
     "name": "Natsumi",
-    "score": 45.831535392165925,
+    "score": 45.83,
     "gender": "female",
     "club": "MY Wimbledon London"
   },
   {
     "id": "takiko_MWL",
     "name": "Takiko",
-    "score": 50,
+    "score": 51,
     "gender": "female",
     "club": "MY Wimbledon London"
   },
@@ -44,7 +44,7 @@
   {
     "id": "yo_MWL",
     "name": "Yo",
-    "score": 52,
+    "score": 55,
     "gender": "male",
     "club": "MY Wimbledon London"
   },
@@ -73,6 +73,13 @@
     "id": "motoko_MWL",
     "name": "Motoko",
     "score": 32.0,
+    "gender": "female",
+    "club": "MY Wimbledon London"
+  },
+  {
+    "id": "aki_MWL",
+    "name": "Aki",
+    "score": 36.0,
     "gender": "female",
     "club": "MY Wimbledon London"
   },
