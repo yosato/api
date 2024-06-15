@@ -43,7 +43,7 @@ class Players(Resource):
         
         ind=self.return_player_ind(id)
         if ind:
-            return f"Player with id {id} (name: {params["name"]}, club: {params["club"]}) already exists",400
+            return f"Player with id {id} (name: {params['name']}, club: {params['club']}) already exists",400
         
         player={
             "id":id,
