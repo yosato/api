@@ -39,8 +39,7 @@ class Players(Resource):
         if any(paramVal is None for paramVal in params.values()):
             return f"all entries need to be filled"
 
-        id=self.get_id(params)
-        
+        id=self.get_id(params)    
         ind=self.return_player_ind(id)
         if ind:
             return f"Player with id {id} (name: {params['name']}, club: {params['club']}) already exists",400
@@ -61,17 +60,18 @@ class Players(Resource):
         parser=reqparse.RequestParser()
         parser.add_argument("id")
         parser.add_argument("score")        
+        parser.add_argument("club")
+        parser.add_argument("name")        
         
         params=parser.parse_args()
-
-        if any(paramVal is None for paramVal in [params["id"],params["score"]]):
-            return f"id and score need to be filled"
-
-        print(params["id"])
-        print(params["score"])
-        ind=self.return_player_ind(params["id"])
+        id=self.get_id(params)        
+        ind=self.return_player_ind(id)
         if not ind:
-            return f"no player with that id exists"
+            return f"Player with id {id} (name: {params['name']}, club: {params['club']}) does not exists",400
+        
+        if any(paramVal is None for paramVal in [params["score"]]):
+            return f"score need to be filled",400
+
         playerToUpdate=players[ind]
         playerToUpdate["score"]=float(params["score"])
         players[ind]=playerToUpdate
